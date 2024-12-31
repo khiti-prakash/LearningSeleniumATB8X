@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="E:/Java Folder/LearningSeleniumATB8X"><classes><class name="org.example.ex_21122024.Selenium01"><methods><include name="OpenBrowser"/></methods></class></classes></test></suite>
+
+
