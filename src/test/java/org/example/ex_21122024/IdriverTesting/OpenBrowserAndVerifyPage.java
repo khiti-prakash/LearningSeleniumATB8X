@@ -19,6 +19,9 @@ public class OpenBrowserAndVerifyPage {
     public void VerifyMessage() throws InterruptedException {
         ChromeOptions option = new ChromeOptions();
         option.addArguments("--start-maximized");
+        option.addArguments("--disable-infobars");
+        option.addArguments("--disable-notifications");
+        option.addArguments("--headless");
 
         WebDriver driver = new ChromeDriver(option);
         driver.navigate().to("https://www.idrive360.com/enterprise/login");
